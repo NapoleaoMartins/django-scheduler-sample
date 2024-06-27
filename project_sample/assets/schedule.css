@@ -1,0 +1,176 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+a {
+  color: #000;
+}
+
+table, th, td {
+  border-left: 1px solid #dddddd;;
+}
+
+.btn-primary a strong{
+  color: #FFF;
+}
+
+
+.btn-primary.gradient {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  background: -moz-linear-gradient(top, #33a6cc 50%, #0099cc 50%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#33a6cc), color-stop(50%,#0099cc)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #33a6cc 50%, #0099cc 50%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #33a6cc 50%, #0099cc 50%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #33a6cc 50%, #0099cc 50%); /* IE10+ */
+  background: linear-gradient(to bottom, #33a6cc 50%, #0099cc 50%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33a6cc', endColorstr='#0099cc', GradientType=0); /* IE6-9 */
+}
+
+.btn-primary.gradient:hover, 
+.btn-primary.gradient:focus, 
+.btn-primary.gradient:active, 
+.btn-primary.gradient.active, 
+.open > .dropdown-toggle.btn-primary {
+  background: -moz-linear-gradient(top, #66b2cc 50%, #33a6cc 50%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#66b2cc), color-stop(50%,#33a6cc)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #66b2cc 50%, #33a6cc 50%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #66b2cc 50%, #33a6cc 50%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #66b2cc 50%, #33a6cc 50%); /* IE10+ */
+  background: linear-gradient(to bottom, #66b2cc 50%, #33a6cc 50%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66b2cc', endColorstr='#33a6cc', GradientType=0); /* IE6-9 */
+}
+
+.btn-primary.gradient:active, 
+.btn-primary.gradient.active {
+  background: -moz-linear-gradient(top, #267c99 50%, #007299 50%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#267c99), color-stop(50%,#007299)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #267c99 50%, #007299 50%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #267c99 50%, #007299 50%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #267c99 50%, #007299 50%); /* IE10+ */
+  background: linear-gradient(to bottom, #267c99 50%, #007299 50%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#267c99', endColorstr='#007299', GradientType=0); /* IE6-9 */
+}
+
+.btn-custom {
+  background-color: #e6e6e6;
+  border: 1px solid #cccccc;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  background-color: #d9d9d9;
+  border-color: #cdcdcd;
+}
+.btn-custom.disabled:hover,
+.btn-custom.disabled:focus,
+.btn-custom.disabled:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled]:hover,
+.btn-custom[disabled]:focus,
+.btn-custom[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom:hover,
+fieldset[disabled] .btn-custom:focus,
+fieldset[disabled] .btn-custom:active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+
+/* Estilo do modal-footer */
+.modal-footer {
+  display: flex;
+  justify-content: flex-end; /* Alinha os itens à direita */
+  padding: 15px; /* Espaçamento interno */
+  border-top: 1px solid #e9ecef; /* Borda superior */
+  background-color: #f8f9fa; /* Cor de fundo */
+  border-bottom-left-radius: 5px; /* Cantos arredondados no canto inferior esquerdo */
+  border-bottom-right-radius: 5px; /* Cantos arredondados no canto inferior direito */
+}
+
+/* Estilo dos botões no modal-footer */
+.modal-footer .btn {
+  margin-left: 10px; /* Espaçamento entre os botões */
+  padding: 10px 20px; /* Espaçamento interno dos botões */
+  border-radius: 4px; /* Cantos arredondados dos botões */
+  border: none; /* Remove a borda padrão */
+  cursor: pointer; /* Cursor de ponteiro */
+  font-size: 14px; /* Tamanho da fonte */
+}
+
+/* Estilo do botão padrão */
+.modal-footer .btn-default {
+  background-color: #6c757d; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+.modal-footer .btn-default:hover {
+  background-color: #5a6268; /* Cor de fundo ao passar o mouse */
+}
+
+
+
+.row-centered {
+    text-align:center;
+}
+
+.modal-content {
+  color: #000;
+}
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+/* Estilo para o formulário de seleção de ano */
+#year_select_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo para o rótulo */
+#year_select_form label {
+  margin-right: 10px; /* Espaçamento à direita */
+  font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo para o menu suspenso de seleção de ano */
+#id_year_select {
+  padding: 5px; /* Espaçamento interno */
+  font-size: 14px; /* Tamanho da fonte */
+  border: 1px solid #ccc; /* Borda */
+  border-radius: 4px; /* Borda arredondada */
+  margin-right: 10px; /* Espaçamento à direita */
+}
+
+/* Estilo para o botão de envio */
+#year_select_form button {
+  padding: 8px 15px; /* Espaçamento interno */
+  background-color: #007bff; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none; /* Sem borda */
+  border-radius: 4px; /* Borda arredondada */
+  cursor: pointer; /* Cursor */
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Estilo para o botão de envio ao passar o mouse */
+#year_select_form button:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
